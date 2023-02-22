@@ -1,0 +1,80 @@
+h1 {
+  color:rgb(102, 72, 132);
+  font-size: 40px;
+  font-family: 'Shantell Sans', cursive;
+}
+
+img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.lewagon_button {
+  text-decoration: none;
+  font-weight: none;
+  color:ivory;
+  background: rgb(220, 20, 60);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.lewagon_button:hover {
+  background: rgb(129, 9, 33);
+}
+
+h2 {
+  color:rgb(102, 72, 132);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+  color: rgb(29, 79, 89);
+  background-color: rgb(199, 196, 196);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+div {
+  background-color: whitesmoke;
+  /* width: 700px; */
+  margin: 20px auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.list-inline {
+  list-style: none;
+  display: inline;
+  padding: 20px
+}
+
+@media (max-width: 1920px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+  }
+}
